@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "FSDropIt"
-  s.version      = "1.0.0"
+  s.version      = "1.0.1"
   s.summary      = "FSDropIt is a framework wich allow you to create a beautiful dropdown button for your form."
 
   s.homepage     = "https://github.com/Mrancois"
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/Mrancois/FSDropIt.git", :tag => "v#{s.version}" }
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  s.source_files  = "DKDetailsParallax/**/*.{swift,h,otf}"
+  s.source_files  = "FSDropIt/**/*.{swift,h,otf}"
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
