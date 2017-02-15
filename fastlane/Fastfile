@@ -17,7 +17,7 @@ lane :gitDeploy do
       name: "v#{version}",
       tag_name: "v#{version}",
       api_token: ENV["GITHUB_TOKEN"],
-      description: changelog_from_git_commits(),
+      description: changelog_from_git_commits() || "Release commit",
       commitish: "master"
     )
 
