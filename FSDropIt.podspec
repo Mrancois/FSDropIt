@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "FSDropIt"
-  s.version      = "1.1"
+  s.version      = "1.1.1"
   s.summary      = "FSDropIt is a framework wich allow you to create a beautiful dropdown button for your form."
 
   s.homepage     = "https://github.com/Mrancois"
